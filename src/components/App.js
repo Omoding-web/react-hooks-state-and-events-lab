@@ -3,6 +3,7 @@ import ShoppingList from "./ShoppingList";
 import itemData from "../data/items";
 
 function App() {
+  //State variable to toggle between light and dark modes
   const [shade, setShade] = useState(false);
   const toggleMode = () => {
     setShade(shade => !shade);
